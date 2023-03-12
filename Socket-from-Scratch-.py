@@ -1,3 +1,25 @@
+
+
+HTTP 
+
+a way to connect and communicate between browser and server. 
+Human readable URL is used,
+DNS Server resolve the IP Address like 1.1.3412.4 and use this IP address for communication 
+
+difference between Azure blob and s3 
+
+
+
+SOCKER 
+
+
+socket.socket(socket.AF_INET, socket.SOCK_STREAM):
+
+The arguments passed to socket() are constants used to specify the address family and socket type. AF_INET is the Internet address family for IPv4. SOCK_STREAM is the socket type for TCP, the protocol that will be used to transport messages in the network.
+
+The .bind() method is used to associate the socket with a specific network interface and port number:
+
+
 # echo-client.py
 
 import socket
