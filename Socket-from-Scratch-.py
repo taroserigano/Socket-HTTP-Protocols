@@ -1,3 +1,13 @@
+1024 is a port  
+
+- because, if it's less than 1024, privilages is required to use these ports. 
+
+- The bufsize argument of 1024 used above is the maximum amount of data to be received at once. 
+It doesn’t mean that .recv() will return 1024 bytes.
+
+
+
+
 
 
 HTTP 
